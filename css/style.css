@@ -1,0 +1,1092 @@
+/* ------------------------------Banner1-------------------------- */
+body {
+    background-color: #dfe9c1;
+    text-align: center;
+}
+
+#navigation {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.logo-img {
+    max-width: 12em;
+}
+
+.navbar .nav a {
+    font-size: 1.5em;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.bi-three-dots {
+    color: white;
+    font-size: 2.2em;
+}
+
+#my-menu {
+    background-color: rgb(76, 142, 230);
+    width: 9%;
+    position: absolute;
+    right: 0px;
+    padding: 0px 10px;
+    z-index: 1;
+}
+
+#my-menu a {
+    color: white;
+    font-size: 1.5em;
+}
+
+.b1-tittle,
+.b1-description {
+    color: white;
+    margin: 0% auto;
+
+}
+
+.b1-tittle {
+    font-size: 6.2em;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1em;
+    padding-top: 10%;
+    margin-bottom: 3%;
+}
+
+.b1-description {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 17%;
+    width: 60%;
+}
+
+.b1-shape1,
+.b1-shape2 {
+    position: absolute;
+}
+
+.b1-shape1 {
+    width: 15%;
+    top: -18%;
+    left: 10%;
+}
+
+.b1-shape2 {
+    width: 8.5%;
+    right: 0%;
+    z-index: 0;
+    bottom: 542%;
+}
+
+
+
+/* -----------------------------------------Banner 2--------------------------------- */
+.b2-shape1 {
+    width: 65%;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    bottom: 960pt;
+}
+
+.b2-shape2 {
+    width: 26%;
+    position: absolute;
+    right: 0px;
+    top: -201pt;
+    z-index: -1;
+}
+
+.popular-menu h1 {
+    color: #2f58cd;
+    font-family: 'Ubuntu' sans-srif;
+    font-size: 5.5rem;
+    font-weight: 700;
+    padding-top: 10%;
+}
+
+.popular-menu .row {
+    margin-top: 8%;
+}
+
+.popular-menu button {
+    background-color: #2f58cd;
+    color: white;
+    font-family: 'Lato' sans-serif;
+    margin-top: 8%;
+    font-size: 2em;
+    padding: 0.5% 3%;
+}
+
+.b2-card {
+    margin: 0px auto;
+    width: 90%;
+    text-align: left;
+}
+
+.b2-card h1 {
+    color: black;
+    font-size: 4rem;
+    padding-top: 0%;
+}
+
+.b2-card p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#b2 .btn {
+    font-size: 3rem;
+}
+
+/*----------------------------------------- Banner 3 and  Banner 4---------------------------------------- */
+
+.b3-img img {
+    width: 100%;
+    padding-right: 0%;
+}
+
+.b3-shape {
+    position: absolute;
+    bottom: -46px;
+    left: 40%;
+    max-width: 25%;
+}
+
+.b3-info {
+    background-color: white;
+
+}
+
+.b3-info h1 {
+    font-size: 4rem;
+    padding: 23% 5% 4% 5%;
+    text-align: left;
+}
+
+.b3-info p {
+    font-size: 2rem;
+    padding: 3% 5%;
+    text-align: left;
+}
+
+.b3-info button {
+    font-size: 2rem;
+    margin: 5% auto;
+}
+
+img[alt="b4-img"] {
+    width: 101%;
+}
+
+/* -------------------------------------Banner 5--------------------------------- */
+#banner5{
+    background-color: #7287ae ;
+    color: white;
+}
+#banner5 .btn{
+    color: #7287ae;
+    font-weight: 600;
+}
+
+/*----------------------------------- banner 6 -----------------------------*/
+#banner6{
+    color: #7287ae;
+}
+#banner6 .container-fluid{
+    background-image: url(../images/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#banner6 .btn{
+ color: white;
+ background-color: #7287ae;
+}
+#banner6 p[class="fs-5 py-5"]{
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+/* ------------------------------banner 7---------------------- */
+#banner7{
+    color: #7287ae;
+    padding: 5%;
+}
+#banner7 p[class=" fs-5"]{
+   width: 70%;
+   margin: 0 auto;
+}
+.bi-quote{
+    font-size: 4rem !important;
+}
+/* --------------------------banner 8-------------------------- */
+.b8{
+    background-image: url(../images/group8_back.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10% 0% 0% 0%;
+    text-align: left;
+    color: white;
+}
+.b8 ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+/* ------------------ website media queary------------------ */
+/* -----------banner1-------------- */
+@media (max-width:390px) {
+    .logo-img {
+        width: 5em;
+    }
+
+    #my-menu {
+        width: 20%;
+    }
+
+    .bi-three-dots {
+        font-size: .9em;
+    }
+
+    #my-menu a {
+        font-size: .7em;
+    }
+
+    .b1-tittle {
+        font-size: 2em;
+    }
+
+    .b1-description {
+        font-size: .5em;
+        padding-bottom: 26%;
+    }
+
+    .b1-shape1 {
+        width: 15%;
+        top: 26%;
+        left: 10%;
+    }
+
+    .b1-shape2 {
+        width: 8.5%;
+        right: 0%;
+        z-index: 0;
+        bottom: 415%;
+    }
+
+    /* --------------------------banner 2------------------------- */
+    .b2-shape1 {
+        width: 59%;
+        bottom: 1018pt;
+    }
+
+    .b2-shape2 {
+        width: 23%;
+        top: -95pt;
+    }
+
+    .popular-menu h1 {
+        font-size: 1rem;
+    }
+
+    .b2-card {
+        width: 10rem;
+        margin-bottom: 3%;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: .8rem;
+    }
+
+    .b2-card p {
+        font-size: .5rem;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 1rem;
+    }
+
+    /* ---------------------------banner3 and Banner4---------------------- */
+    .b3-img img {
+        width: 75%;
+        height: fit-content;
+        padding-right: 0%;
+    }
+
+    .b3-shape {
+        position: absolute;
+        bottom: -19px;
+        left: 40%;
+        max-width: 25%;
+    }
+
+    .b3-info {
+        background-color: white;
+        width: 75%;
+        margin: 0% auto;
+
+    }
+
+    .b3-info h1 {
+        font-size: 1.2rem;
+        padding: 16% 5% 4% 5%;
+        text-align: left;
+    }
+
+    .b3-info p {
+        font-size: .9rem;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .b3-info button {
+        font-size: 1.1rem;
+        margin: 1.8% auto;
+    }
+    /* --------------banner4 img target using attribute selectors-------------- */
+    /* img[alt="b4-img"] {
+        width: 101%;
+    } */
+    /* banner 8 */
+    .b8{
+        background-image: url(../images/group8_back.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size:100% 80%;
+        padding: 0% 0% 0% 0%;
+        text-align: left;
+        color: white;
+    }
+    .b8-div{
+        padding: 0 !important;
+    }
+    .b8 .row{
+        margin-top: 0% !important;
+        padding-top: 100% !important;
+    }
+    .b8 p{
+        font-size: 0.7rem !important;
+    }
+    .b8 li{
+        font-size: 0.5rem;
+    }
+
+}
+
+@media (min-width:390px) and (max-width:576px) {
+
+    /* --------------------------------banner1----------------------------------- */
+    .logo-img {
+        width: 5em;
+    }
+
+    .bi {
+        font-size: 1.2em;
+    }
+
+    #my-menu {
+        width: 18%;
+    }
+
+    #my-menu a {
+        font-size: .7em;
+    }
+
+    .b1-tittle {
+        font-size: 3em;
+    }
+
+    .b1-description {
+        font-size: .7em;
+        padding-bottom: 26%;
+    }
+
+    .b1-shape1 {
+        top: 11%;
+        left: 10%;
+    }
+
+    .b1-shape2 {
+        bottom: 452%;
+        right: 0%;
+    }
+
+    /* -------------------------banner 2-------------------------- */
+    .b2-shape1 {
+        width: 59%;
+        bottom: 679pt;
+    }
+
+    .b2-shape2 {
+        width: 23%;
+        top: -98pt;
+    }
+
+    .popular-menu h1 {
+        font-size: 1rem;
+    }
+
+    .b2-card {
+        width: 10rem;
+        margin-bottom: 3%;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: .8rem;
+    }
+
+    .b2-card p {
+        font-size: .5rem;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 1rem;
+    }
+
+    /* --------------------------------banner3 and Banner4------------------------- */
+    .b3-img img {
+        width: 75%;
+        height: fit-content;
+        padding-right: 0%;
+    }
+
+    .b3-shape {
+        position: absolute;
+        bottom: -33px;
+        left: 40%;
+        max-width: 25%;
+    }
+
+    .b3-info {
+        background-color: white;
+        width: 75%;
+        margin: 0% auto;
+
+    }
+
+    .b3-info h1 {
+        font-size: 2.5rem;
+        padding: 13% 5% 4% 5%;
+        text-align: left;
+    }
+
+    .b3-info p {
+        font-size: 1.1rem;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .b3-info button {
+        font-size: 1.1rem;
+        margin: 5.80% auto;
+    }
+    
+    /* --------------banner4 img target using attribute selectors-------------- */
+    /* img[alt="b4-img"] {
+        width: 101%;
+    } */
+
+  /* -----banner 8--------- */
+  .b8{
+    background-image: url(../images/group8_back.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:100% 80%;
+    padding: 10% 0% 0% 0%;
+    text-align: left;
+    color: white;
+}
+.b8 .row{
+    margin-top: 76% !important;
+}
+
+
+}
+
+
+
+@media (min-width:576px) and (max-width:768px) {
+
+    /* --------------------------banner1--------------------------------- */
+    .logo-img {
+        width: 9em;
+    }
+
+    .bi {
+        font-size: 1.5em;
+    }
+
+    #my-menu {
+        width: 18%;
+    }
+
+    #my-menu a {
+        font-size: 1.2em;
+    }
+
+    .b1-tittle {
+        font-size: 4.2em;
+    }
+
+    .b1-description {
+        font-size: .7em;
+        padding-bottom: 26%;
+    }
+
+    .b1-shape1 {
+        top: 25%;
+        left: 10%;
+    }
+
+    .b1-shape2 {
+        bottom: 537%;
+        right: 0%;
+    }
+
+    .popular-menu h1 {
+        font-size: 1.5rem;
+    }
+
+    .popular-menu .row {
+        margin-top: 8%;
+    }
+
+    .popular-menu button {
+        background-color: #2f58cd;
+        color: white;
+        font-family: 'Lato' sans-serif;
+        margin-top: 8%;
+        font-size: 2em;
+        padding: 0.5% 3%;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: 1.5rem;
+    }
+
+    .b2-card p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 1.5rem;
+    }
+
+
+
+    /* ----------------------------------bannner 2-------------------------------- */
+    .b2-shape1 {
+        width: 59%;
+        bottom: 1301pt;
+    }
+
+    .b2-shape2 {
+        width: 23%;
+        top: -132pt;
+    }
+
+    .popular-menu h1 {
+        font-size: 1.6rem;
+    }
+
+    .popular-menu .row {
+        margin-top: 8%;
+    }
+
+    .popular-menu button {
+        background-color: #2f58cd;
+        color: white;
+        font-family: 'Lato' sans-serif;
+        margin-top: 8%;
+        font-size: 2em;
+        padding: 0.5% 3%;
+    }
+
+    .b2-card {
+        margin: 10px auto;
+        width: 15rem;
+        text-align: left;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: 1.3rem;
+    }
+
+    .b2-card p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 1.5rem;
+    }
+
+    /* -----------------------------banner3 and banner4------------------------- */
+    .b3-img img {
+        width: 100%;
+        height: fit-content;
+        padding-right: 0%;
+    }
+
+    .b3-shape {
+        position: absolute;
+        bottom: -33px;
+        left: 40%;
+        max-width: 25%;
+    }
+
+    .b3-info {
+        background-color: white;
+
+    }
+
+    .b3-info h1 {
+        font-size: 2.5rem;
+        padding: 13% 5% 4% 5%;
+        text-align: left;
+    }
+
+    .b3-info p {
+        font-size: 1.1rem;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .b3-info button {
+        font-size: 1.1rem;
+        margin: 5.80% auto;
+    }
+    
+    /* --------------banner4 img target using attribute selectors-------------- */
+    /* img[alt="b4-img"] {
+        width: 101%;
+    } */
+
+   /* -----banner 8--------- */
+    .b8{
+        background-image: url(../images/group8_back.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size:100% 80%;
+        padding: 10% 0% 0% 0%;
+        text-align: left;
+        color: white;
+    }
+    .b8 .row{
+        margin-top: 30% !important;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+
+    /* --------------------------banner1------------------------- */
+    .logo-img {
+        width: 7em;
+    }
+
+    .bi {
+        font-size: 1.5em;
+    }
+
+    #my-menu {
+        width: 14%;
+    }
+
+    #my-menu a {
+        font-size: 1.2em;
+
+    }
+
+    .b1-description {
+        font-size: 1em;
+        padding-bottom: 26%;
+    }
+
+    .b1-shape1 {
+        top: 8%;
+        left: 10%;
+    }
+
+    .b1-shape2 {
+        bottom: 610%;
+        right: 0%;
+
+    }
+
+    /* ----------------------------banner 2------------------------ */
+    .b2-shape1 {
+        width: 65%;
+        bottom: 516pt;
+    }
+
+    .b2-shape2 {
+        width: 30%;
+        top: -176pt;
+    }
+
+    .popular-menu h1 {
+        font-size: 2rem;
+    }
+
+    .popular-menu .row {
+        margin-top: 8%;
+    }
+
+    .popular-menu button {
+        background-color: #2f58cd;
+        color: white;
+        font-family: 'Lato' sans-serif;
+        margin-top: 8%;
+        font-size: 2em;
+        padding: 0.5% 3%;
+    }
+
+    .b2-card {
+        margin: 0px auto;
+        width: 80%;
+        text-align: left;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: 1.5rem;
+    }
+
+    .b2-card p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 1.5rem;
+    }
+
+    /* ---------------------------banner3 and banner4---------------------- */
+    .b3-img img {
+        width: 100%;
+        height: fit-content;
+        padding-right: 0%;
+    }
+
+    .b3-shape {
+        position: absolute;
+        bottom: -33px;
+        left: 40%;
+        max-width: 25%;
+    }
+
+    .b3-info {
+        background-color: white;
+
+    }
+
+    .b3-info h1 {
+        font-size: 2.5rem;
+        padding: 13% 5% 4% 5%;
+        text-align: left;
+    }
+
+    .b3-info p {
+        font-size: 1.1rem;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .b3-info button {
+        font-size: 1.1rem;
+        margin: 5.80% auto;
+    }
+     /* --------------banner4 img target using attribute selectors-------------- */
+       img[alt="b4-img"] {
+        width: 101%;
+    }
+
+
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    /* -------------------------banner1----------------------- */
+    .logo-img {
+        width: 8em;
+    }
+
+    .bi {
+        font-size: 1.5em;
+    }
+
+    #my-menu {
+        width: 14%;
+    }
+
+    #my-menu a {
+        font-size: 1em;
+    }
+
+    .b1-tittle {
+        font-size: 5.5em;
+    }
+
+    .b1-description {
+        font-size: 1.2em;
+        padding-bottom: 26%;
+    }
+
+    .b1-shape1 {
+        top: 26%;
+        left: 10%;
+    }
+
+    .b1-shape2 {
+        bottom: 705%;
+        right: 0%;
+    }
+
+    /* ----------------------------banner 2--------------------------- */
+    .b2-shape1 {
+        width: 65%;
+        bottom: 567pt;
+    }
+
+    .b2-shape2 {
+        width: 30%;
+        top: -184pt;
+    }
+
+    .popular-menu h1 {
+        font-size: 2.5rem;
+    }
+
+    .popular-menu .row {
+        margin-top: 8%;
+    }
+
+    .popular-menu button {
+        background-color: #2f58cd;
+        color: white;
+        font-family: 'Lato' sans-serif;
+        margin-top: 8%;
+        font-size: 2em;
+        padding: 0.5% 3%;
+    }
+
+    .b2-card {
+        margin: 0px auto;
+        width: 80%;
+        text-align: left;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: 1.5rem;
+    }
+
+    .b2-card p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 2rem;
+    }
+
+    /* ------------------------banner3 and banner4--------------------- */
+    .b3-img img {
+        width: 100%;
+        height: fit-content;
+        padding-right: 0%;
+    }
+
+    .b3-shape {
+        position: absolute;
+        bottom: -33px;
+        left: 40%;
+        max-width: 25%;
+    }
+
+    .b3-info {
+        background-color: white;
+
+    }
+
+    .b3-info h1 {
+        font-size: 3rem;
+        padding: 23% 5% 4% 5%;
+        text-align: left;
+    }
+
+    .b3-info p {
+        font-size: 1.3rem;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .b3-info button {
+        font-size: 1.3rem;
+        margin: 5.80% auto;
+    }
+    
+    /* --------------banner4 img target using attribute selectors-------------- */
+    img[alt="b4-img"] {
+        width: 101%;
+    }
+
+
+
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+
+    /* ------------------------banner1---------------------------- */
+    .logo-img {
+        width: 9em;
+    }
+
+    .bi {
+        font-size: 1.8em;
+    }
+
+    #my-menu {
+        width: 14%;
+    }
+
+    #my-menu a {
+        font-size: 1.2em;
+    }
+
+    .b1-tittle {
+        font-size: 6.2em;
+    }
+
+    .b1-description {
+        font-size: 1.2em;
+        padding-bottom: 26%;
+    }
+
+    .b1-shape1 {
+        top: -15%;
+        left: 10%;
+    }
+
+    .b1-shape2 {
+        bottom: 747%;
+        right: 0%;
+    }
+
+
+    /* -----------------------------banner 2------------------------- */
+    .b2-shape1 {
+        width: 65%;
+        bottom: 659pt;
+    }
+
+    .b2-shape2 {
+        width: 30%;
+        top: -213pt;
+    }
+
+    .popular-menu h1 {
+        font-size: 3.7em;
+    }
+
+    .popular-menu .row {
+        margin-top: 8%;
+    }
+
+    .popular-menu button {
+        background-color: #2f58cd;
+        color: white;
+        font-family: 'Lato' sans-serif;
+        margin-top: 8%;
+        font-size: 2em;
+        padding: 0.5% 3%;
+    }
+
+    .b2-card {
+        margin: 0px auto;
+        width: 80%;
+        text-align: left;
+    }
+
+    .b2-card h1 {
+        color: black;
+        padding-top: 0%;
+        font-size: 2rem;
+    }
+
+    .b2-card p {
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    #b2 .btn {
+        font-size: 2.5rem;
+    }
+
+    /* ---------------------banner3 and banner4--------------------- */
+    .b3-img img,.b4-img img {
+        width: 100%;
+        height: fit-content;
+        padding-right: 0%;
+    }
+
+    .b3-shape {
+        position: absolute;
+        bottom: -46px;
+        left: 40%;
+        max-width: 25%;
+    }
+
+    .b3-info {
+        background-color: white;
+
+    }
+
+    .b3-info h1 {
+        font-size: 3.5rem;
+        padding: 23% 5% 4% 5%;
+        text-align: left;
+    }
+
+    .b3-info p {
+        font-size: 1.5rem;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .b3-info button {
+        font-size: 1.5rem;
+        margin: 7% auto;
+    }
+    
+    /* --------------banner4 img target using attribute selectors-------------- */
+    img[alt="b4-img"] {
+        width: 101%;
+    }
+}

@@ -1,0 +1,21 @@
+.nav-logo{
+    max-width: 8.9em ;
+    margin-right: 15px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.bi{
+    color:seagreen;
+    font-size: 1.2em;
+}
+#nav-menu{
+    background-color: palegoldenrod;
+    width: 20%;
+    position: absolute;
+    left: 0px;
+    padding: 0px 90px;
+}
