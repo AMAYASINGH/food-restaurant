@@ -379,6 +379,8 @@ img[alt="b4-img"] {
     .b8 .row{
         margin-top: 0% !important;
         padding-top: 100% !important;
+        padding-left: 6%;
+        padding-right: 2%;
     }
     .b8 p{
         font-size: 0.7rem !important;
@@ -505,7 +507,7 @@ img[alt="b4-img"] {
         width: 101%;
     } */
 
-  /* -----banner 8--------- */
+  /* -----banner 8---------
   .b8{
     background-image: url(../images/group8_back.png);
     background-position: bottom;
@@ -517,8 +519,34 @@ img[alt="b4-img"] {
 }
 .b8 .row{
     margin-top: 76% !important;
-}
+} */
 
+
+    /* banner 8 */
+    .b8{
+        background-image: url(../images/group8_back.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size:100% 80%;
+        padding: 0% 0% 0% 0%;
+        text-align: left;
+        color: white;
+    }
+    .b8-div{
+        padding: 0 !important;
+    }
+    .b8 .row{
+        margin-top: 0% !important;
+        padding-top: 75% !important;
+        padding-left: 6%;
+        padding-right: 2%;
+    }
+    .b8 p{
+        font-size: 0.7rem !important;
+    }
+    .b8 li{
+        font-size: 0.5rem;
+    }
 
 }
 
@@ -697,7 +725,9 @@ img[alt="b4-img"] {
         color: white;
     }
     .b8 .row{
-        margin-top: 30% !important;
+        margin-top: 43% !important;
+        padding-left: 6%;
+        padding-right: 2%;
     }
 }
 @media (min-width:768px) and (max-width:992px) {
